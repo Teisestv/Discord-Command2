@@ -1,0 +1,14 @@
+name: "Discord-Command"
+author: teisestv , DerCommander
+discription: Dieses Plugin fügt /dc hinzu 
+version: 1.0.0
+api: [5.1.2]
+main: teisestv\Test1\main
+
+commands:
+  dc:
+    description: "Der AquaMC discord Server!"
+    permission: dc.command
+permissions:
+   dc.command:
+     default: true
